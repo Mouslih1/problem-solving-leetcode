@@ -1,16 +1,16 @@
 package org.example;
 
 public class LongestCommonPrefix {
-    public static void main(String[] args) {
-
+    public static void main(String[] args)
+    {
         String[] strs = {"flower","flow","flight"};
-
         System.out.println(longestCommonPrefix(strs));
     }
 
     public static String longestCommonPrefix(String[] strs)
     {
-        if (strs == null || strs.length == 0) {
+        if (strs == null || strs.length == 0)
+        {
             return "";
         }
 
