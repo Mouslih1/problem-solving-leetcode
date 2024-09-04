@@ -28,6 +28,7 @@ public class ValidParentheses {
             }
 
             char x;
+
             switch (s.charAt(i))
             {
 
